@@ -2,7 +2,7 @@ package condition
 
 fun main() {
     // 조건문
-    var appleCount: Int? = 5
+    var appleCount: Int  = 5
     var appleCount2: Int = 3
 
 //    appleCount = appleCount2
@@ -25,5 +25,5 @@ fun main() {
         else -> println("해당하지 않는 값입니다.")
     }
 
-    
+
 }
