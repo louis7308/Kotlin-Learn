@@ -22,7 +22,7 @@ class Person(var name:String, val birthYear:Int) {
     constructor(name: String) : this(name, 2005) {
         println("보조 생성자가 사용되었습니다")
     }
-                
+
 //  메소드
 //    fun introduce() {
 //        println("안녕하세요 ${birthYear}년생 ${name} 입니다")
