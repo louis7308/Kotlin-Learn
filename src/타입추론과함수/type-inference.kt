@@ -1,4 +1,4 @@
-package typeguess
+package 타입추론과함수
 
 fun main() {
     // 기본 타입 변수의 값으로 타입을 추론할수있다

@@ -1,4 +1,4 @@
-package variable
+package 변수와자료형
 
 fun main() {
     // 정수 (Byte , Short, Int, Long) [정수형의 리터럴 허용 범위 : 10진수, 16진수, 2진수] **8진수 제외

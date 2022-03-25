@@ -1,4 +1,4 @@
-package condition
+package 조건문과비교연산자
 
 fun main() {
     // 조건문

@@ -1,4 +1,4 @@
-package array
+package 형변환과배열
 
 fun main() {
     // type-casting (형 변환)
