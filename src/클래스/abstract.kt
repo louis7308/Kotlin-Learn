@@ -5,7 +5,6 @@ var a = 0
 fun main() {
     // 추상화 함수,  추상클래스
     var r = Rabbit()
-
     r.eat()
     r.sniff()
 

@@ -14,8 +14,8 @@ fun main() {
 
     // also 는 it 을 사용하여 main 함수에서 미리 정의된 변수와 상관없이 인스턴스의 값만 사용 할수 있게 한다
     var b = Book("승원의 코틀린", 10000).also {
-        it.name = "[초특가]" + it.name
         it.discount()
+        it.name = "[초특가]" + it.name
     }
 
     // run 함수는 이미 인스턴스가 만들어진 후에 인스턴스의 함수나 속성을 scope내에서 사용해야 할때 사용됩니다
@@ -36,8 +36,7 @@ fun main() {
     }
 }
 
-class Book(var name: String, var price: Int)
-{
+class Book(var name: String, var price: Int) {
     fun discount() {
         price -= 2000
     }
