@@ -15,7 +15,6 @@ fun main() {
     outer.text = "Changed Outer Class"
     inner.introduceOuter()
 }
-
 class Outer {
     var text = "Outer Class"
 
