@@ -28,12 +28,14 @@ class Counter2(var listener: EventListener) { // 생성자로 EventListener 넘�
 
 // 이벤트를 수신 받았을 때 화면에 5의 배수를 출력하는 EventPrinter
 class EventPrinter {
-    fun onEvent(count: Int) {
-        print("${count}-")
-    }
 
     fun start() {
         // this 를 통해 EventListener 구현부를 넘겨줌 ( 다형성 활용 )
-        Counter2(this).count()
+        val counter = Counter2(object: EventListener {
+            override fun onEvent(count: Int) {
+                print("${count}-")
+            }
+        })
+        counter.count()
     }
 }

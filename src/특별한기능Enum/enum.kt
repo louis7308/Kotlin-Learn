@@ -9,6 +9,9 @@ fun main() {
 
     state = State.EAT
     println(state.message)
+
+    var human = Human("안녕")
+    human.isHuman()
 }
 
 enum class State(val message2: String, val message: String) {
@@ -16,5 +19,9 @@ enum class State(val message2: String, val message: String) {
     EAT("밥을 먹습니다", "h34"),
     SlEEP("잠을 잡니다", "h444");
 
-    fun isSleeping() = this == State.SlEEP
+    fun isSleeping() = this == State.EAT
+}
+
+class Human(val name:String) {
+    fun isHuman() = println("hi $this")
 }

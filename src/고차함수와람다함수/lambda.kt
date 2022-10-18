@@ -6,7 +6,7 @@ fun main() {
 
     // 람다 함수는 익명 함수이다
     // 람다 함수는 그 자체가 고차 함수 이기 떄문에 연산자 사용은 필요가 없다
-    val c = { str: String -> println("$str 람다 함수 입니다") }
+    val c: (String) -> Unit = { str: String -> println("$str 람다 함수 입니다") }
     b(c)
 }
 

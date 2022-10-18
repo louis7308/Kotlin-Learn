@@ -10,7 +10,7 @@ fun main() {
         "ITZY" to "ICY"
     )
 
-    for(entry in a ) {
+    for(entry in a) {
         println("${entry.key} : ${entry.value}")
     }
     a.put("오마이걸", "번지")

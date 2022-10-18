@@ -1,7 +1,7 @@
 package 제너릭
 
 fun main() {
-    println("print" + add("1", "10"))
+    println("print" + add(1, "10"))
 }
 
 
