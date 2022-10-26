@@ -20,5 +20,4 @@ fun main() {
 class Person(name: String, age: Int, nickname: String) {
     var name = name
     var position: Int = 0
-        get() = 5
 }
